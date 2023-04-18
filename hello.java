@@ -11,7 +11,7 @@ public class hello {
     public static void main(String... args) {
         Arrays.stream(args).forEach(arg ->
         {
-            System.out.println("Ciao " + arg);
+            System.out.println("Hola " + arg);
         });
     }
 }
